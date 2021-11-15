@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+header{
+    background-color: gray;
+}
+header .top-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header .top-header .burger-menu{
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+}
+header .top-header .logo {
+    display: flex;
+    padding:5px;
+    text-align: center;
+    width: 60%;
+    justify-content: center;
+}
+header .top-header .logo p{
+    display: none;
+}
+header .top-header .logo img{
+    width: 20%;
+    height: auto;
+    align-content: center;
+}
+
+header .top-header .form {
+    display: none;
+}
+
+header .top-header .car{
+    width: 20%;
+    text-align: center;
+    padding: 5px;
+}
+section .banner{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 10px;
+}
+section .banner i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    padding: 10px;
+}
+section .banner img{
+    width: 90%;
+    height: auto;
+}
+.categorys{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+section .categorys p{
+    padding: 5px;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color:white;
+}
+.remeras{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-image:url('/images/categorias/cate-1.JPG');
+    background-size: cover;
+    text-align: center;
+    border: solid 1px black;
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans';
+
+}
+.pantalones{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-image:url('/images/categorias/cate-3.jpg');
+    background-size: cover;
+    text-align: center;
+    border: solid 1px #fcba03;
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans';
+
+}
+.abrigos{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-image:url('/images/categorias/cate-2.jpg');
+    background-size: cover;
+    text-align: center;
+    border: solid 1px white;
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans';
+
+}
+.accesorios{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-image:url('/images/categorias/cate-4.jpg');
+    background-size: cover;
+    text-align: center;
+    border: solid 1px black;
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans';
+}
+h3{
+    padding: 15px;
+    text-align: center;
+}
+main .carrousel i{
+    display: none;
+}
+main .carrousel {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+}
+footer section{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer section.social-medias{
+    flex-direction: column;
+    padding: 10px;
+}
+footer section img{
+    padding: 10px;
+    width: 20%;
+    height: auto;
+}
+@media(min-width: 361px){
+    .categorys{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    header .top-header .form {
+        display: flex;
+        flex-wrap: wrap;
+        border: solid 1.5px black;
+        border-radius: 15px;
+        background-color: white;
+        padding: 5px; 
+        width: 45%;
+    }
+    header .top-header .form .input{
+        width: 80%;
+        font-size: 12px;
+    }
+    header .top-header .form .submit{
+        width: 20%;
+        text-align: center;
+    }
+};
+@media(min-width: 769px){
+    .categorys{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+};
