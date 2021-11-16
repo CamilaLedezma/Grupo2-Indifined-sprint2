@@ -11,11 +11,44 @@ header .top-header{
     flex-wrap: wrap;
     align-items: center;
 }
-header .top-header .burger-menu{
-    padding: 10px;
+#menu{
     width: 20%;
-    text-align: center;
 }
+header #menu .burger-menu{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    
+}
+#menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+}
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+}
+#menu ul li:hover > ul {
+    display:block;
+}
+
 header .top-header .logo {
     display: flex;
     padding:5px;
@@ -149,20 +182,50 @@ footer{
     background-color: black;
     color: white;
     padding: 15px 10px;
+    font-size: 10px;
+    font-family: "Manrope";
+    
 }
-footer section{
+footer .futer{
     display: flex;
     flex-wrap: wrap;
 }
-footer section.social-medias{
-    flex-direction: column;
-    padding: 10px;
-}
-footer section img{
-    padding: 10px;
+footer .futer .data-fiscal{
     width: 20%;
     height: auto;
+    padding: 10px;
 }
+footer .futer .data-fiscal img{
+    width: 50%;
+    height: auto;
+}
+footer .futer section.social-medias{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+footer .futer section.social-medias article{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    
+}
+footer .futer section.atencion-cliente{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 55%;
+    justify-content: center;
+    margin: 5px;
+   
+}
+
+
+
+
 @media(min-width: 361px){
     .categorys{
         display: flex;
