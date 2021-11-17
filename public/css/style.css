@@ -35,18 +35,24 @@ header #menu .burger-menu{
     float:left;
     margin:0;
     padding:0;
+    list-style: none;
 }
 
 #menu ul ul {
     display:none;
     position:absolute;
     top:100%;
-    left:0;
-    background:#eee;
+    left:0px;
+    background-color:black;
     padding:0;
 }
 #menu ul li:hover > ul {
-    display:block;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 150px;
 }
 
 header .top-header .logo {
@@ -220,9 +226,10 @@ footer .futer section.atencion-cliente{
     width: 55%;
     justify-content: center;
     margin: 5px;
-   
 }
-
+footer p{
+    text-align: center;
+}
 
 
 

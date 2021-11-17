@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
     res.sendFile(__dirname + '/views/index.html');
 });
 
-app.get("/carrito", (req, res) => {
+app.get("/productCart", (req, res) => {
     res.sendFile(__dirname + '/views/productCart.html');
 });
 
@@ -22,6 +22,6 @@ app.get("/login", (req, res) => {
     res.sendFile(__dirname + '/views/login.html');
 });
 
-app.get("/Producto", (req, res) => {
+app.get("/productDetail", (req, res) => {
     res.sendFile(__dirname + '/views/productDetail.html');
 });
