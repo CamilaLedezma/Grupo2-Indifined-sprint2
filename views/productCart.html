@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/productCart.css">
 </head>
 <body>
     <header>
@@ -48,15 +50,101 @@
             <!----<div class="form" action="#" method="GET">
                 <div class="input">Buscar</div>
                 <div class="submit"><i class="fa fa-search"></i></div>
-            </div> ---->
+            </div> 
 
             <div class="car">
                 <a href="/productCart"><i class="fas fa-shopping-cart"></i></a>
-            </div> 
+            </div> ---->
 
         </div>
 
     </header>
+
+    <main class="product-cart">
+        <section class="prod-tabla">
+            <table>
+                <tr>
+                    <th class="talle"><p>talle</p></th>
+                    <th class="pro-imag"><img src="/images/productos/accesorios/billetera-collar-azul.jpg" alt="billetera-collar-azul"></th>
+                    <th class="pro-desc">
+                        <p class="prod-nombre">nombre del producto</p>
+                        <div class="cant-elec"><input class="menos" type="button" value= "-"><p class="cantidad">x</p><input class ="mas" type="button" value="+"></div>
+                    </th>
+                    <th class="price"><p>$XXXX</p></th>
+                    <th class="icon"><button class="eliminar" type="reset" value="eliminar"><i class="fas fa-trash-alt"></i></button></th>
+                </tr>
+                <tr>
+                    <th class="talle"><p>talle</p></th>
+                    <th class="pro-imag"><img src="/images/productos/accesorios/tapaboca-trady-blanco.jpg" alt="Tapabocas-trady"></th>
+                    <th class="pro-desc">
+                        <p class="prod-nombre">nombre del producto</p>
+                        <div class="cant-elec"><input class="menos" type="button" value= "-"><p class="cantidad">x</p><input class ="mas" type="button" value="+"></div>
+                    </th>
+                    <th class="price"><p>$XXXX</p></th>
+                    <th class="icon"><button class="eliminar" type="reset" value="eliminar"><i class="fas fa-trash-alt"></i></button></th>
+                </tr>
+                <tr>
+                    <th class="talle"><p>talle</p></th>
+                    <th class="pro-imag"><img src="/images/productos/accesorios/billetera-collar-azul.jpg" alt="billetera-collar-azul"></th>
+                    <th class="pro-desc">
+                        <p class="prod-nombre">nombre del producto</p>
+                        <div class="cant-elec"><input class="menos" type="button" value= "-"><p class="cantidad">x</p><input class ="mas" type="button" value="+"></div>
+                    </th>
+                    <th class="price"><p>$XXXX</p></th>
+                    <th class="icon"><button class="eliminar" type="reset" value="eliminar"><i class="fas fa-trash-alt"></i></button></th>
+                </tr>
+                <tr>
+                    <th class="talle"><p>talle</p></th>
+                    <th class="pro-imag"><img src="/images/productos/accesorios/tapaboca-trady-blanco.jpg" alt="Tapabocas-trady"></th>
+                    <th class="pro-desc">
+                        <p class="prod-nombre">nombre del producto</p>
+                        <div class="cant-elec"><input class="menos" type="button" value= "-"><p class="cantidad">x</p><input class ="mas" type="button" value="+"></div>
+                    </th>
+                    <th class="price"><p>$XXXX</p></th>
+                    <th class="icon"><button class="eliminar" type="reset" value="eliminar"><i class="fas fa-trash-alt"></i></button></th>
+                </tr>
+            </table>
+            
+        </section>
+
+        <article class="medios-envio">
+            <h4>Medios de envio</h4>
+            <div>
+                <form action="/">
+                <input class="cod-postal" type="number" maxlength="4" placeholder="Ingresá acá tu código postal"><input class="calc-envio" type="button" value="calcular" >
+                </form>
+                <a href="https://www.correoargentino.com.ar/formularios/cpa"><p>No sé mi código postal</p></a>
+            </div>
+        </article>
+
+        <section class="resumen-compra">
+            <h4>Resumen de Compra</h4>
+            <table>
+                <tr>
+                    <th><p class="subtotal">Subtotal</p></th>
+                    <th><p class="precio-subtotal">$XXXX</p></th>
+                </tr>
+                <tr>
+                    <th><p class="cupon">¿Tenés un cupón de descuento?</p></th>
+                    <th><p id=id-cupon>Ingresalo acá</p></th>
+                </tr>
+                <tr>
+                    <th><p class="envio">Envío</p> </th>
+                    <th><p class="precio-envio">$XXXX</p></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th><p class="cuotas">o hasta 6 cuotas de </p><p class="precio-cuotas">$XXX</p></th>
+                </tr>
+            </table>
+            <input class="iniciar-compra" type="button" value="Iniciar compra"><br>
+            <a href="#">Ver más productos</a>
+        </section>
+        <section class="interesar">
+
+        </section>
+
+    </main>
 
 
     <footer>

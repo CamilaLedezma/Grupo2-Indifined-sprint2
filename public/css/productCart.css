@@ -1,0 +1,118 @@
+
+main.product-cart h4{
+    font-family: Bebas neue;
+    font-size: 22px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    font-weight:bolder;
+    letter-spacing: 3px;
+}
+main.product-cart p{
+    
+    font-size: 16px;
+    text-transform: lowercase;
+    
+}
+main.product-cart{
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main.product-cart section.prod-tabla{
+    border: 1px solid black;
+    width: 80%;
+}
+main.product-cart .prod-tabla table{
+    width: 100%;
+}
+main.product-cart .prod-tabla th{
+    border-top: 1px solid black;
+    height: 5em;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+main.product-cart .prod-tabla th.talle{
+    width: 5%;
+}
+main.product-cart .prod-tabla th.pro-imag{
+    width: 10%;
+}
+main.product-cart .prod-tabla th.pro-imag img{
+    width: 100%;
+    height: auto;
+}
+main.product-cart .prod-tabla th.pro-desc{
+    width: 50%;
+}
+main.product-cart .prod-tabla th.precio{
+    width: 30%;
+}
+main.product-cart .prod-tabla th.icon{
+    width: 5%;
+}
+main.product-cart .prod-tabla th.pro-desc .cant-elec{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    border-radius: 10px;
+    background-color:#bfbcbb;
+}
+main.product-cart section.prod-tabla .pro-desc .cant-elec input.menos, input.mas{
+    background-color: #bfbcbb;
+    border:none;
+    font-size: 19px;
+}
+main.product-cart .prod-tabla th.icon .eliminar{
+    border: none;
+}
+main.product-cart article.medios-envio, section.resumen-compra{
+    margin:20px 0px;
+    padding: 20px 10px;
+    background-color: #bfbcbb;
+    border-radius: 3px;
+    width: 80%;
+    text-align: center;
+}
+main.product-cart article.medios-envio .calc-envio{
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+    font-weight: bolder;
+    
+}
+main.product-cart article.medios-envio .cod-postal, .calc-envio{
+    border:none;
+    border-radius: 8px;
+    height: 26px;
+    padding: 0px 5px;
+}
+main.product-cart section.resumen-compra table{
+    width: 100%;
+    border-top: 1px solid black;
+}
+main.product-cart section.resumen-compra th{
+    border-bottom: 1px solid black;
+}
+}
+main.product-cart section.resumen-compra th .subtotal, .cupon, .envio{
+text-align: start;
+}
+main.product-cart section.resumen-compra th .precio-subtotal, #id-cupon, .precio-envio, .cuotas, .precio-cuotas{
+    text-align: end;
+}
+main.product-cart section.resumen-compra .iniciar-compra{
+    border:none;
+    border-radius: 8px;
+    height: 15%;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    width: 50%;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+    font-weight: bolder;
+}

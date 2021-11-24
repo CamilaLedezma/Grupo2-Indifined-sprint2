@@ -3,6 +3,14 @@
     padding: 0px;    
     box-sizing: border-box;
 }
+body{
+    margin: 0px auto;
+    font-family: Open Sans;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 header{
     background-color: gray;
 }
@@ -11,8 +19,10 @@ header .top-header{
     flex-wrap: wrap;
     align-items: center;
 }
-#menu{
+header #menu{
     width: 20%;
+    position: relative;
+    left:10px;
 }
 header #menu .burger-menu{
     width: 100%;
@@ -20,7 +30,7 @@ header #menu .burger-menu{
     text-align: center;
     padding: 10px;
     justify-content: center;
-    
+    color: white;
 }
 #menu ul a {
     display:block;
@@ -32,9 +42,6 @@ header #menu .burger-menu{
 }
 #menu ul li {
     position:relative;
-    float:left;
-    margin:0;
-    padding:0;
     list-style: none;
 }
 
@@ -54,7 +61,6 @@ header #menu .burger-menu{
     padding: 5px;
     width: 150px;
 }
-
 header .top-header .logo {
     display: flex;
     padding:5px;
@@ -70,11 +76,9 @@ header .top-header .logo img{
     height: auto;
     align-content: center;
 }
-
 header .top-header .form {
     display: none;
 }
-
 header .top-header .car{
     width: 20%;
     text-align: center;
@@ -91,106 +95,99 @@ section .banner i{
     justify-content: center;
     width: 5%;
     padding: 10px;
+    color: black;
 }
 section .banner img{
     width: 90%;
     height: auto;
 }
 .categorys{
-    display: flex;
-    flex-direction: column;
     padding: 15px 0px;
 }
-section .categorys p{
+.categorys article{
+    margin: 5px 0px;
+}
+section .categorys h4{
+    letter-spacing: 3px;
     padding: 5px;
     width: auto;
     height: auto;
     background-color: black;
     color:white;
+    text-transform: uppercase;
 }
-.remeras{
-    padding: 10px;
+section .categorys article{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80px;
+    height: 90px;
+    background-size: cover;
+    text-align: center;
+    border: solid 1px black; 
+}
+section .categorys .remeras{
     background-image:url('/images/categorias/cate-1.JPG');
-    background-size: cover;
-    text-align: center;
-    border: solid 1px black;
-    font-weight:bolder;
-    text-transform: uppercase;
-    font-family: 'Lucida Sans';
-
 }
-.pantalones{
-    padding: 10px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
+section .categorys .pantalones{
     background-image:url('/images/categorias/cate-3.jpg');
-    background-size: cover;
-    text-align: center;
-    border: solid 1px #fcba03;
-    font-weight:bolder;
-    text-transform: uppercase;
-    font-family: 'Lucida Sans';
-
 }
-.abrigos{
-    padding: 10px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
+section .categorys .abrigos{
     background-image:url('/images/categorias/cate-2.jpg');
-    background-size: cover;
-    text-align: center;
-    border: solid 1px white;
-    font-weight:bolder;
-    text-transform: uppercase;
-    font-family: 'Lucida Sans';
-
 }
-.accesorios{
-    padding: 10px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
+section .categorys .accesorios{
     background-image:url('/images/categorias/cate-4.jpg');
-    background-size: cover;
-    text-align: center;
-    border: solid 1px black;
-    font-weight:bolder;
-    text-transform: uppercase;
-    font-family: 'Lucida Sans';
 }
 h3{
     padding: 15px;
     text-align: center;
+    font-weight: bolder;
 }
-main .carrousel i{
-    display: none;
+main.index{
+    margin: 0 auto;
+    width: 90%;
 }
-main .carrousel {
+main.index .carrousel i #i-corrousel{
+    width: 500px;
+}
+main.index .carrousel {
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    align-items: center;
+}
+main.index .carrousel article.product{
+    border: 1px solid #cdcdcd;
+    margin: 5px 0px;
+    width: 60%;
+}
+main.index .carrousel article.product img{
+    width: 50%;
+    height: auto;
+}
+main.index .carrousel article.product .product-description{
+    position: relative;
+}
+main.index .carrousel article.product i{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.82);
+    font-size:16px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+}
+main.index .carrousel article.product p.cuotas{
+    font-size: 12px;
 }
 footer{
     background-color: black;
     color: white;
     padding: 15px 10px;
-    font-size: 10px;
-    font-family: "Manrope";
-    
+    font-size: 10px;;
 }
 footer .futer{
     display: flex;
@@ -234,11 +231,7 @@ footer p{
 
 
 @media(min-width: 361px){
-    .categorys{
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
+    
     header .top-header .form {
         display: flex;
         flex-wrap: wrap;
