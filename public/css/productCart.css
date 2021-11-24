@@ -3,6 +3,9 @@
     padding: 0px;    
     box-sizing: border-box;
 }
+header .top-header .car{
+    opacity: 0%;
+}
 main.product-cart{
     width: 90%;
     margin: 0px auto;
@@ -129,7 +132,7 @@ main.product-cart h3,
 main.product-cart section.ver-mas{
     display: none;
 }
-@media(min-width:490px){
+@media(min-width:361px){
     main.product-cart .agrup-tabla-envio{
         display: flex;
         flex-wrap: wrap;

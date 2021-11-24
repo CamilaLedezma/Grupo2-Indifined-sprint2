@@ -266,7 +266,25 @@ footer p{
 
 
 @media( min-width:361px){
-    
+    header .top-header{
+        font-size: 24px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    header .top-header .logo {
+        display: flex;
+        padding:5px;
+        text-align: center;
+        width: 80%;
+        justify-content: center;
+    }
+    header .top-header .logo p{
+        display: block;
+        color: white;
+        font-size: 24px;
+        font-family: Bebas neue;
+        letter-spacing: 2px;
+    }
     header .top-header .form {
         display: flex;
         flex-wrap: wrap;
@@ -300,6 +318,28 @@ footer p{
 
 }
 @media(min-width:769px){
+    header .top-header{
+        font-size: 30px;
+    }
+    header .top-header .logo {
+        display: flex;
+        padding:5px;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+    header .top-header .logo a{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;    
+    }
+    header .top-header .logo p{
+        display: block;
+        color: white;
+        font-size: 30px;
+        font-family: Bebas neue;
+        letter-spacing: 5px;
+    }
     main.index .sec-categorys article{
         width: 24%;
         height: 200px;
