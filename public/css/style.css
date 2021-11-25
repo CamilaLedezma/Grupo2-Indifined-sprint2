@@ -361,10 +361,12 @@ footer p{
     }
     main.index section.sec-carrousel article.product:hover{
         height: 30%;
+        transition-duration: 450ms;
     }
     main.index section.sec-carrousel article.product:hover i{
         color: #ff523b;
         border: 1px solid #ff523b;
+        transition-duration: 450ms;
     }
     main.index section.ver-mas{
         display: none;
@@ -375,6 +377,7 @@ footer p{
 
 
 
+/* 
 section.small-container{
     max-width: 1000px;
     margin: auto;
@@ -562,3 +565,4 @@ hr{
 .p-details{
     padding: 10px 0;
 }
+/*
