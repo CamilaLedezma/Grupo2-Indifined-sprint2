@@ -1,7 +1,25 @@
-# sprint-2-practica
+# grupo_2_Indefined
+*Proyecto Integrador - SPRINT 2*
 
-Retrospectiva
+## 1. Comenzar a hacer:
+Mejorar la comunicación<br> 
+Distribuir bien los roles<br> 
+Definir objetivos a corto plazo<br> 
+Reuniones para hacer puestas en común<br> 
+Preguntar si estamos trabados en algo<br> 
+Tener iniciativa<br> 
 
-Lo que comenzamos a hacer es tratar de organizarnos y distribuir las tareas para los distintos wireframes. Lo que mas deberiamos hacer es intentar comunicarnos mas seguido, 
-comprometernos mas e intentar romper un poquito mas el "hielo". Hay que continuar haciendo mas codigo, inspirarnos mas, organizarnos mejor de que como comenzamos y tambien 
-organizar nuestro tablero de trabajo.
+## 2. Hacer más:
+Practicar tanto en el playground como de forma audidacta<br> 
+
+## 3. Continuar haciendo:
+Ser empatic@ con los tiempos de los demás<br> 
+
+## 4. Hacer menos:
+No comunicarnos y no aprovechar los tiempo dados por mica en los <br> 
+encuentros con empujar
+
+## 5. Dejar de hacer:
+Esperar a que otro me diga que hacer<br> 
+
+### Nuestro trello (https://trello.com/b/I0MJ9ohT/grupo-indefined) <br>
