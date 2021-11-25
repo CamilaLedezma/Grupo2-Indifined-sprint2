@@ -34,7 +34,7 @@ header .top-header .car{
     flex-wrap: wrap;
     padding-left: 10vw;
     text-align: left;
-    background-color: #fcba03;
+    background-color: rgba(230, 40, 11, 0.65);
     padding: 2em;
     
     
@@ -75,22 +75,17 @@ footer section{
 }
 
 @media (min-width: 700px){
-    form{
-        position: absolute;
-        display: inline-block;
-        width: 30%;
-        left: 5%;
+    section.forms{
+        display: flex;
+        flex-wrap: nowrap;
     }
-    
-    .carrousel{
-        display: inline-block;
-        position: relative;
-        padding-left: 3em;
-}
-    .carrousel img{
-        position: relative;
-        left: 32%;
-        width: 70%;
+    section.forms .carrousel{
+        display: flex;
+        flex-grow: 1;
+    }
+    section.forms .carrousel img{
+        width: 100%;
+        height: auto;
     }
 
 }
